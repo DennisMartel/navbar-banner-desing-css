@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #eceff1;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 60px;
+    background: #01579b;
+    border-bottom: 3px solid #03a9f4;
+}
+
+.logo {
+    color: #b0bec5;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.logo:hover {
+    color: #ffffff;
+}
+
+.navbar .navbar-item {
+    color: #b0bec5;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.navbar .navbar-item:hover {
+    color: #ffffff;
+}
+
+.social-nav .social-item {
+    color: #b0bec5;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.social-nav .social-item:hover {
+    color: #ffffff;
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-form {
+    width: 40%;
+    height: 350px;
+    color: #ffffff;
+    padding: 10px;
+    background: #01579b;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.input-field, 
+.textarea-field{
+    display: block;
+    color: #cfd8dc;
+    outline: none;
+    border: none;
+    width: 100%;
+    background: none;
+    border-bottom: 1px solid #03a9f4;
+    box-sizing: border-box;
+    margin: 15px 0 20px 0;
+}
+
+.input-field {
+    height: 30px;
+    padding: 0 10px;
+}
+
+.textarea-field {
+    height: 60px;
+    resize: none;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: #03a9f4;
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    color: #cfd8dc;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
